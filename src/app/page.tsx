@@ -1,10 +1,20 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import {
+  SliceSimulator,
+  SliceSimulatorParams,
+  getSlices,
+} from "@slicemachine/adapter-next/simulator";
+import { SliceZone } from "@prismicio/react";
 
-export default function Home() {
+import { components } from "@/slices";
+
+export default function SliceSimulatorPage({
+  searchParams,
+}: SliceSimulatorParams) {
+  const slices = getSlices(searchParams.state);
+
   return (
-    <main className={styles.main}>
-      <h1>Hello</h1>
-    </main>
+    <SliceSimulator>
+      <SliceZone slices={slices} components={components} />
+    </SliceSimulator>
   );
 }
