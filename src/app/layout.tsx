@@ -4,6 +4,7 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
 import { createClient } from "@/prismicio";
+import Header from "@/components/Header";
 
 // Import and configure fonts
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter', display: 'swap' });
@@ -14,12 +15,12 @@ const roboto_mono = Roboto_Mono({ subsets: ["latin"], variable: '--font-roboto-m
 export async function generateMetadata(): Promise<Metadata> {
   const client = createClient();
 
-  const page = await client.getSingle("settings");
+  const settings  = await client.getSingle("settings");
   return {
-    title: page.data.site_title || "Digital Sigga Portfolio",
-    description: page.data.meta_description || "Description", 
+    title: settings.data.site_title || "Digital Sigga Portfolio",
+    description: settings.data.meta_description || "Description", 
     openGraph: {
-      images: [page.data.og_image.url || ""],
+      images: [settings.data.og_image.url || ""],
     },
   }
 }
@@ -35,7 +36,7 @@ export default function RootLayout({
     <html lang="en" className={clsx(inter.className, roboto_mono.className)}>
       <body>
 
-        <header>Header</header>
+        <Header/>
 
         {children}
 
