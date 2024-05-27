@@ -5,7 +5,7 @@ import {
 } from "@slicemachine/adapter-next/simulator";
 import { SliceZone } from "@prismicio/react";
 
-import { components } from "@/slices";
+// import {components } from "@/slices";
 
 export default function SliceSimulatorPage({
   searchParams,
@@ -13,8 +13,9 @@ export default function SliceSimulatorPage({
   const slices = getSlices(searchParams.state);
 
   return (
-    <SliceSimulator>
-      <SliceZone slices={slices} components={components} />
-    </SliceSimulator>
+    // <SliceSimulator>
+    //   {/* <SliceZone slices={slices} components={components} /> */}
+    // </SliceSimulator>
+    <div>Heyç</div>
   );
 }
