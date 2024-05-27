@@ -5,6 +5,7 @@ import "./globals.css";
 import clsx from "clsx";
 import { createClient } from "@/prismicio";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 // Import and configure fonts
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter', display: 'swap' });
@@ -40,8 +41,9 @@ export default function RootLayout({
 
         {children}
 
-        <footer>Footer</footer>
-        </body>
+       <Footer/>
+
+      </body>
     </html>
   );
 }
