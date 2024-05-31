@@ -1,23 +1,34 @@
 {
   "format": "page",
-  "id": "home",
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "status": true,
   "json": {
     "Main": {
-      "uid": {
+      "title": {
+        "type": "Text",
         "config": {
-          "label": "UID"
-        },
-        "type": "UID"
+          "label": "Title ",
+          "placeholder": ""
+        }
       },
       "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
         "config": {
           "choices": {}
-        },
-        "fieldset": "Slice Zone",
-        "type": "Slices"
+        }
       }
     },
     "SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
       "meta_description": {
         "config": {
           "label": "Meta Description",
@@ -35,17 +46,7 @@
           "thumbnails": []
         },
         "type": "Image"
-      },
-      "meta_title": {
-        "config": {
-          "label": "Meta Title",
-          "placeholder": "A title of the page used for social media and search engines"
-        },
-        "type": "Text"
       }
     }
-  },
-  "label": "Home",
-  "repeatable": true,
-  "status": true
+  }
 }
