@@ -1,7 +1,35 @@
 /* Hero.module.css */
 .heading {
-    font-size: 7rem;
-    color: pink;
-    /* Add more styles as needed */
+  font-size: 2rem;
+  color: pink;
+  /* Default styles */
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: blue;
+  /* Default styles */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Example style: rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Example style: shadow */
+  /* Add more styles as needed */
+}
+
+
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.2rem;
+  }
+}
+

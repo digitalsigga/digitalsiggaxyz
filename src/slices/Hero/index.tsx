@@ -23,9 +23,13 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         )
       }}/>
 
-      <PrismicRichText field={slice.primary.body} />
+      <PrismicRichText field={slice.primary.body} components={{
+        paragraph: ({children})=>(
+          <p className={styles.paragraph}>{children}</p>
+        )
+      }}/>
 
-      <PrismicNextImage field={slice.primary.image} />
+        <PrismicNextImage field={slice.primary.image} className={styles.image}/>
 
     </section>
   );

@@ -1,0 +1,7 @@
+/* Define your custom styles */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px; /* Adjust as needed */
+  }
+  
