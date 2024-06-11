@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Bounded.module.css';
+import styles from './Components.module.css';
 
 type BoundedProps = {
     as?: React.ElementType;
