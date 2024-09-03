@@ -1,21 +1,26 @@
-import '../styles/Nav.css'
+import "../styles/Nav.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
-
   return (
     <div className="nav-container">
-      <p>Sigríður Birna Matthíasdóttir</p> 
+      <p>Sigríður Birna Matthíasdóttir</p>
       <ul>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to="../pages/about">About</Link>
+        </li>
+        <li>
+          <Link to="../pages/projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="../pages/contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="../pages/home">Home</Link>
+        </li>
       </ul>
-      <div className="card">
-        {/* Add card content here */}
-      </div>
     </div>
-  )
+  );
 }
 
-export default Nav
-
+export default Nav;
