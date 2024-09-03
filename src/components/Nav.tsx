@@ -10,7 +10,7 @@ function Nav() {
           <Link to="../pages/about">About</Link>
         </li>
         <li>
-          <Link to="../pages/projects">Projects</Link>
+          <a href="https://sigridurbirna.cargo.site/">Projects</a>
         </li>
         <li>
           <Link to="../pages/contact">Contact</Link>

@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center; /* Aligns items vertically in the center */
-  padding: 10px; /* Adds some space around the content */
-  background-color: #f8f9fa; /* Background color for the nav bar */
+  padding: 20px; /* Adds some space around the content */
   position: fixed; /* Fixes the navbar to the top of the viewport */
   top: 0; /* Positions the navbar at the very top */
   left: 0; /* Positions the navbar at the left edge of the viewport */
