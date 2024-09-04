@@ -1,35 +1,10 @@
 @import url("variables.css");
 
-@font-face {
-  font-family: "Rafael";
-  src: url("../assets/fonts/rafael_display-webfont.woff") format("woff"),
-    url("../assets/fonts/RafaelDisplay.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
-
-h1,
-h2,
-h3 {
-  font-family: Merriweather;
-}
-
-h1.rafael {
-  font-family: "Rafael", sans-serif; /* Apply it globally or customize as needed */
-  font-size: 5rem;
-}
-
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  border: 1px;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+  width: 80vw;
+  margin: 0 auto;
 }

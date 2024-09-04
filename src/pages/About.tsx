@@ -3,10 +3,13 @@ import "../styles/about.css";
 function About() {
   return (
     <div className="aboutContainer">
-      <h1 className="rafael">About Me</h1>
-      <h1>Yo</h1>
-      <h2>Halló Halló</h2>
-      <h3>yeah baby yeah</h3>
+      <h2>About Me</h2>
+      <p>
+        I am a digital fashion designer and a web developer. I studied fashion
+        at Studio Bercot in Paris, did MA in Design in Iceland University of the
+        Arts, with a focus on speculative design & digital/virtual fashion, and
+        finally BS in Computer Science.
+      </p>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import "../styles/projects.css";
 
 function Projects() {
   return (
-    <div>
+    <div className="projectsContainer">
       <h1>ApRo</h1>
       <p>This is the about page sdadsadsdadadadascontent.</p>
     </div>

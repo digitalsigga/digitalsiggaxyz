@@ -1,45 +1,10 @@
-@font-face {
-  font-family: "Rafael";
-  src: url("../assets/fonts/rafael_display-webfont.woff") format("woff"),
-    url("../assets/fonts/RafaelDisplay.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("variables.css");
 
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
-
-h1.rafael {
-  font-family: "Rafael", sans-serif; /* Apply it globally or customize as needed */
-  font-size: 5rem;
-}
-
-.contactContainer {
+.projectsContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  border: 1px;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  margin: 2em auto;
-  padding: 1em;
-}
-
-.contactContainer a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.contactContainer a:hover {
-  text-decoration: underline;
-}
-
-.contactContainer h1,
-.contactContainer p {
-  margin: 0.5em 0; /* Add vertical spacing between elements */
+  width: 80vw;
+  margin: 0 auto;
 }
