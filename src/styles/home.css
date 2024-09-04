@@ -14,13 +14,22 @@ html {
 
 h1.rafael {
   font-family: "Rafael", sans-serif; /* Apply it globally or customize as needed */
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 5rem;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 .homeContainer {
   display: flex;
+  flex-wrap: wrap;
   height: 100vh;
-  border: 1px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
