@@ -27,12 +27,12 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            to="../pages/nav"
+            to="../pages/work"
             className={({ isActive }) =>
               isActive ? "nav-link active-link" : "nav-link"
             }
           >
-            Projects
+            Work
           </NavLink>
         </li>
         <li>

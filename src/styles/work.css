@@ -1,6 +1,6 @@
 @import url("variables.css");
 
-.projectsContainer {
+.workContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
