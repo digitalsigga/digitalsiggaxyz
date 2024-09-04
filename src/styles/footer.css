@@ -1,22 +1,44 @@
-/* footer.css */
-
+/* Footer Styles */
 .footer {
-  background-color: #333; /* Dark background for the footer */
-  color: #fff; /* White text color */
-  text-align: center; /* Center align the text */
-  padding: 20px; /* Padding for spacing */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Align items vertically in the center */
+  padding: 20px; /* Match the padding of the nav */
+  position: fixed;
+  bottom: 0; /* Positions the footer at the bottom of the viewport */
+  left: 0; /* Positions the footer at the left edge of the viewport */
+  width: 100vw; /* Ensures the footer stretches across the full width */
+  border-top: 1px solid black; /* Optional: Add a border to the top of the footer */
+  box-sizing: border-box;
+  background-color: var(
+    --background-color
+  ); /* Set a background color if needed */
+  color: var(--primary-color); /* White text color */
 }
 
+/* Footer Content Styling */
 .footer-content {
-  max-width: 800px; /* Limit the width of the content */
+  display: flex;
+  justify-content: space-between; /* Center the content horizontally */ /* Limit the width of the content */
   margin: 0 auto; /* Center the content */
+  width: 100%; /* Ensure it stretches across the available space */
 }
 
+.footer p {
+  display: flex;
+}
+/* Footer Links */
 .footer a {
+  align-items: center; /* Align links vertically */
   color: #1e90ff; /* Link color */
   text-decoration: none; /* Remove underline from links */
+  font-family: Oswald; /* Match the font family of the nav links */
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0 10px; /* Add horizontal spacing between icons */
 }
 
+/* Hover effect for footer links */
 .footer a:hover {
-  text-decoration: underline; /* Underline links on hover */
+  color: var(--secondary-color); /* Change color on hover */
 }

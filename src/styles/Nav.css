@@ -36,17 +36,19 @@
 
 /* Common styles for nav links */
 .nav-container .nav-link {
+  font-family: Oswald;
   text-decoration: none; /* Remove underline from links */
-  color: rgb(19, 0, 229); /* Link color */
+  color: var(--primary-color); /* Link color */
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 /* Hover effect for links */
 .nav-container .nav-link:hover {
-  color: #eb0909; /* Lighter color on hover */
+  color: var(--secondary-color); /* Lighter color on hover */
 }
 
 /* Styling for the active link */
 .nav-container .active-link {
-  color: #ff6347; /* Different color for the active link */
+  color: var(--accent-color); /* Different color for the active link */
 }

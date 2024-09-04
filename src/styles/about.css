@@ -1,3 +1,5 @@
+@import url("variables.css");
+
 @font-face {
   font-family: "Rafael";
   src: url("../assets/fonts/rafael_display-webfont.woff") format("woff"),
@@ -12,6 +14,12 @@ html {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: Merriweather;
+}
+
 h1.rafael {
   font-family: "Rafael", sans-serif; /* Apply it globally or customize as needed */
   font-size: 5rem;
@@ -22,6 +30,6 @@ h1.rafael {
   flex-direction: column;
   height: 100vh;
   border: 1px;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }

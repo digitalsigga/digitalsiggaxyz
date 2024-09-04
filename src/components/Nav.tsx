@@ -26,14 +26,14 @@ function Nav() {
           </NavLink>
         </li>
         <li>
-          <a
-            href="https://sigridurbirna.cargo.site/"
-            className="nav-link"
-            target="_blank"
-            rel="noopener noreferrer"
+          <NavLink
+            to="../pages/nav"
+            className={({ isActive }) =>
+              isActive ? "nav-link active-link" : "nav-link"
+            }
           >
             Projects
-          </a>
+          </NavLink>
         </li>
         <li>
           <NavLink

@@ -4,7 +4,9 @@ function About() {
   return (
     <div className="aboutContainer">
       <h1 className="rafael">About Me</h1>
-      <p>This is the about page content.</p>
+      <h1>Yo</h1>
+      <h2>Halló Halló</h2>
+      <h3>yeah baby yeah</h3>
     </div>
   );
 }
