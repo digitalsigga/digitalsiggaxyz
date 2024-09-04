@@ -8,7 +8,6 @@
   bottom: 0; /* Positions the footer at the bottom of the viewport */
   left: 0; /* Positions the footer at the left edge of the viewport */
   width: 100vw; /* Ensures the footer stretches across the full width */
-  border-top: 1px solid black; /* Optional: Add a border to the top of the footer */
   box-sizing: border-box;
   background-color: var(
     --background-color
@@ -30,7 +29,7 @@
 /* Footer Links */
 .footer a {
   align-items: center; /* Align links vertically */
-  color: #1e90ff; /* Link color */
+  color: var(--primary-color); /* Link color */
   text-decoration: none; /* Remove underline from links */
   font-family: Oswald; /* Match the font family of the nav links */
   font-weight: bold;
