@@ -19,8 +19,27 @@ h1.rafael {
 
 .contactContainer {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   border: 1px;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.contactContainer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contactContainer a:hover {
+  text-decoration: underline;
+}
+
+.contactContainer h1,
+.contactContainer p {
+  margin: 0.5em 0; /* Add vertical spacing between elements */
 }

@@ -1,5 +1,5 @@
 import "../styles/Nav.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
@@ -7,16 +7,44 @@ function Nav() {
       <p>Sigríður Birna Matthíasdóttir</p>
       <ul>
         <li>
-          <Link to="../pages/about">About</Link>
+          <NavLink
+            to="../pages/about"
+            className={({ isActive }) =>
+              isActive ? "nav-link active-link" : "nav-link"
+            }
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <a href="https://sigridurbirna.cargo.site/">Projects</a>
+          <a
+            href="https://sigridurbirna.cargo.site/"
+            className="nav-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Projects
+          </a>
         </li>
         <li>
-          <Link to="../pages/contact">Contact</Link>
+          <NavLink
+            to="../pages/contact"
+            className={({ isActive }) =>
+              isActive ? "nav-link active-link" : "nav-link"
+            }
+          >
+            Contact
+          </NavLink>
         </li>
         <li>
-          <Link to="../pages/home">Home</Link>
+          <NavLink
+            to="../pages/home"
+            className={({ isActive }) =>
+              isActive ? "nav-link active-link" : "nav-link"
+            }
+          >
+            Home
+          </NavLink>
         </li>
       </ul>
     </div>

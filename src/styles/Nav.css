@@ -33,3 +33,21 @@
 .card {
   /* Add any styling for the card here */
 }
+
+/* Style for the links */
+.nav-container ul li .nav-link {
+  text-decoration: none; /* Remove underline from links */
+  color: rgb(19, 0, 229); /* Link color */
+  font-weight: bold;
+}
+
+/* Hover effect for links */
+.nav-container ul li .nav-link:hover {
+  color: #eb0909; /* Lighter color on hover */
+}
+
+/* Styling for the active link */
+.nav-container ul li .active-link {
+  color: #ff6347; /* Different color for the active link */
+  border-bottom: 2px solid #ff6347; /* Underline the active link */
+}

@@ -12,6 +12,14 @@
 * {
   margin: 0;
 }
+
+html {
+  background-color: white; /* Choose your desired color */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+
+*/
 /*
   Typographic tweaks!
   3. Add accessible line-height

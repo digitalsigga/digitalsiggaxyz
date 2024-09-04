@@ -3,9 +3,8 @@ import "../styles/contact.css";
 function Contact() {
   return (
     <div className="contactContainer">
-      <h1>About Me</h1>
-      <p>This is the about page content.</p>
-      <p>VContactme</p>
+      <h2>E-mail my heart</h2>
+      <a href="mailto:sigga.irl@digitalsigga.xyz">sigga.irl@digitalsigga.xyz</a>
     </div>
   );
 }
