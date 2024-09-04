@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Rafael";
+  src: url("../assets/fonts/rafael_display-webfont.woff") format("woff"),
+    url("../assets/fonts/RafaelDisplay.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  color: rgb(236, 2, 2);
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.rafael {
+  font-family: "Rafael", sans-serif; /* Apply it globally or customize as needed */
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5rem;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}

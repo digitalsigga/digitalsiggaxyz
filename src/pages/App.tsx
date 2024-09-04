@@ -4,11 +4,13 @@ import About from "./About";
 import Nav from "../components/Nav"; // Ensure this import is correct
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Header from "../components/Header";
 
 function App() {
   return (
     <Router>
-      <Nav /> {/* Correct usage of the Nav component */}
+      <Nav />
+      <Header />
       <Routes>
         <Route path="/pages/About" element={<About />} />{" "}
         {/* Updated Route syntax */}

@@ -4,7 +4,16 @@ import { NavLink } from "react-router-dom";
 function Nav() {
   return (
     <div className="nav-container">
-      <p>Sigríður Birna Matthíasdóttir</p>
+      <p>
+        <NavLink
+          to="../pages/home"
+          className={({ isActive }) =>
+            isActive ? "nav-link active-link" : "nav-link"
+          }
+        >
+          Sigríður Birna Matthíasdóttir
+        </NavLink>
+      </p>
       <ul>
         <li>
           <NavLink
@@ -34,16 +43,6 @@ function Nav() {
             }
           >
             Contact
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="../pages/home"
-            className={({ isActive }) =>
-              isActive ? "nav-link active-link" : "nav-link"
-            }
-          >
-            Home
           </NavLink>
         </li>
       </ul>
