@@ -5,6 +5,7 @@ import Nav from "../components/Nav"; // Ensure this import is correct
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />} /> {/* Updated Route syntax */}
         {/* Add more routes here */}
       </Routes>
+      <Footer />
     </Router>
   );
 }

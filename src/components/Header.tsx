@@ -8,7 +8,6 @@ function Header() {
         <span className="rafael"> DESIGNER</span> and a web
         <span className="rafael"> DEVELOPER</span>
       </h1>
-      z
     </div>
   );
 }

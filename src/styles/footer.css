@@ -1,0 +1,22 @@
+/* footer.css */
+
+.footer {
+  background-color: #333; /* Dark background for the footer */
+  color: #fff; /* White text color */
+  text-align: center; /* Center align the text */
+  padding: 20px; /* Padding for spacing */
+}
+
+.footer-content {
+  max-width: 800px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the content */
+}
+
+.footer a {
+  color: #1e90ff; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
