@@ -6,13 +6,9 @@
   font-style: normal;
 }
 
-/* --wine-color: #a52a2a; /* Rich wine color for sophistication */
-/* --chocolate-color: #3e2723; /* Dark chocolate brown for warmth (same as primary) */
-/* --unbothered-color: #008080 */
-
-h1 {
-  font-family: Merriweather;
-  font-size: 1rem;
+h1.rafael {
+  font-family: Rafael;
+  font-size: 250px;
   font-weight: bold;
   background: linear-gradient(
     90deg,
@@ -24,11 +20,6 @@ h1 {
   color: transparent;
   animation: gradientAnimation 5s ease-in-out infinite;
   background-size: 200% 200%;
-}
-
-h1.rafael {
-  font-family: rafael;
-  font-size: 9rem;
 }
 
 @keyframes gradientAnimation {
@@ -48,7 +39,7 @@ h1.rafael {
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .marquee-inner {
@@ -71,36 +62,27 @@ h1.rafael {
   }
 }
 
-/* Responsive Styles */
-
-/* For tablets (768px - 1024px) */
-@media (max-width: 1024px) and (min-width: 768px) {
-  .marquee {
-    padding-top: 30px; /* Adjust padding for tablets */
-  }
-
-  .marquee-inner span {
-    font-size: 6vw; /* Smaller font size for tablets */
-    margin-right: 1.5vw; /* Adjust spacing */
-  }
-
-  h1 {
-    font-size: 10rem; /* Smaller font size for tablets */
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  /* Tablet screens */
+  h1.rafael {
+    font-size: 180px; /* Smaller size for tablets */
   }
 }
 
-/* For mobile (below 768px) */
 @media (max-width: 768px) {
+  /* Mobile screens */
+  h1.rafael {
+    font-size: 120px; /* Smaller size for mobile devices */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small screens */
+  h1.rafael {
+    font-size: 80px; /* Even smaller size for very small screens */
+  }
   .marquee {
-    padding-top: 30px; /* Adjust padding for mobile */
-  }
-
-  .marquee-inner span {
-    font-size: 10vw; /* Larger font size for mobile to maintain readability */
-    margin-right: 2vw; /* Adjust spacing */
-  }
-
-  h1 {
-    font-size: 8rem; /* Smaller font size for mobile */
+    padding-top: 50px;
   }
 }

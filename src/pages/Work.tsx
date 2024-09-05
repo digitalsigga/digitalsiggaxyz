@@ -17,57 +17,13 @@ function Work() {
           </Link>
         </div>
         <div className="card">
-          <Link to="/work/digitalfashion">
+          <Link to="/work/madeisgn">
             <div>
               <img
                 src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/WaningMoon1_lrljga.png"
                 alt="Woman wearing digital design with a moon sculpture on top of her head"
               ></img>
-              <h2>Digital Fashion</h2>
-            </div>
-          </Link>
-        </div>
-        <div className="card">
-          <Link to="/work/digitalfashion">
-            <div>
-              <img
-                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/WaningMoon1_lrljga.png"
-                alt="Woman wearing digital design with a moon sculpture on top of her head"
-              ></img>
-              <h2>Digital Fashion</h2>
-            </div>
-          </Link>
-        </div>
-        <div className="card">
-          <Link to="/work/digitalfashion">
-            <div>
-              <img
-                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/WaningMoon1_lrljga.png"
-                alt="Woman wearing digital design with a moon sculpture on top of her head"
-              ></img>
-              <h2>Digital Fashion</h2>
-            </div>
-          </Link>
-        </div>
-        <div className="card">
-          <Link to="/work/digitalfashion">
-            <div>
-              <img
-                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/WaningMoon1_lrljga.png"
-                alt="Woman wearing digital design with a moon sculpture on top of her head"
-              ></img>
-              <h2>Digital Fashion</h2>
-            </div>
-          </Link>
-        </div>
-        <div className="card">
-          <Link to="/work/digitalfashion">
-            <div>
-              <img
-                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/WaningMoon1_lrljga.png"
-                alt="Woman wearing digital design with a moon sculpture on top of her head"
-              ></img>
-              <h2>Digital Fashion</h2>
+              <h2>Ma Design</h2>
             </div>
           </Link>
         </div>
