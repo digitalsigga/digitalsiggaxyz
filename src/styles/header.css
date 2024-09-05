@@ -48,7 +48,7 @@ h1.rafael {
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 70px;
+  padding-top: 20px;
 }
 
 .marquee-inner {
@@ -76,7 +76,7 @@ h1.rafael {
 /* For tablets (768px - 1024px) */
 @media (max-width: 1024px) and (min-width: 768px) {
   .marquee {
-    padding-top: 60px; /* Adjust padding for tablets */
+    padding-top: 30px; /* Adjust padding for tablets */
   }
 
   .marquee-inner span {
@@ -92,7 +92,7 @@ h1.rafael {
 /* For mobile (below 768px) */
 @media (max-width: 768px) {
   .marquee {
-    padding-top: 80px; /* Adjust padding for mobile */
+    padding-top: 30px; /* Adjust padding for mobile */
   }
 
   .marquee-inner span {
