@@ -1,56 +1,96 @@
-/* General styles */
+/* Basic reset */
+
 .workContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin: 0px;
-  margin-top: 2em;
-  flex-wrap: wrap; /* Allows wrapping of cards to the next line */
-  gap: 3rem; /* Space between cards */
+  min-height: 100vh;
 }
 
 .card {
-  background-color: var(--background-color); /* Card background color */
-  padding: 16px; /* Padding inside the card */
-  border: 1px solid var(--secondary-color);
-  width: 100%; /* Let the card take full width by default */
-  max-width: 700px; /* But limit its width to 700px on larger screens */
-  min-height: 300px; /* Minimum height, smaller than before */
-  text-align: center; /* Center text inside card */
+  background-color: var(--background-color);
+  border-radius: 1px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card1 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically within the card */
+  align-items: center;
+  padding: 20px;
+  text-align: center;
 }
 
-/* Media queries for responsive design */
+h2 {
+  font-size: 7rem;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    var(--wine-color),
+    var(--chocolate-color),
+    var(--unbothered-color)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 5s ease-in-out infinite;
+  background-size: 200% 200%;
+}
 
-/* Mobile screens (up to 599px) */
-@media (max-width: 599px) {
-  .card {
-    width: 100%; /* Let the card take the full width of the screen */
-    min-height: 300px; /* Smaller height for mobile screens */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
-/* Tablets and small screens (600px to 899px) */
-@media (min-width: 600px) and (max-width: 899px) {
-  .card {
-    flex: 1 1 calc(50% - 3rem); /* 2 cards per row, adjust based on gap */
+p {
+  color: var(--text-color);
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.card1img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 2px;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+/* For tablets (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
   }
-  .workContainer {
-    margin: 20px;
-    margin-top: 2em;
+
+  p {
+    color: var(--text-color);
+    font-size: 1em;
+    margin-bottom: 5px;
   }
 }
 
-/* Laptops and larger screens (900px and above) */
-@media (min-width: 900px) {
-  .card {
-    flex: 1 1 calc(33.333% - 3rem); /* 3 cards per row, adjust based on gap */
+/* For mobile (below 768px) */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
   }
-  .workContainer {
-    margin: 30px;
-    margin-top: 2em;
+
+  p {
+    color: var(--text-color);
+    font-size: 1em;
+    margin-bottom: 5px;
   }
 }
