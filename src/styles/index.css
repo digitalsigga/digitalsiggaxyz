@@ -14,17 +14,13 @@
 }
 
 html {
-  background-color: var(--background-color);
   margin: 0; /* Reset default margin */
   padding: 0; /* Reset default padding */
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  background-color: var(--background-color);
 }
 
-*/
-/*
-  Typographic tweaks!
-  3. Add accessible line-height
-  4. Improve text rendering
-*/
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -53,7 +49,12 @@ select {
 /*
   7. Avoid text overflows
 */
+
 p,
+a {
+  font-family: Merriweather;
+}
+
 h1,
 h2,
 h3,
@@ -61,6 +62,7 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  font-family: Oswald;
 }
 /*
   8. Create a root stacking context

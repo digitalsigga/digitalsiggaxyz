@@ -14,13 +14,6 @@ html {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-a {
-  font-family: Merriweather;
-}
-
 h1.rafael {
   font-family: "Rafael", sans-serif; /* Apply it globally or customize as needed */
   font-size: 5rem;
@@ -40,7 +33,6 @@ a {
   align-items: center; /* Align links vertically */
   color: var(--primary-color); /* Link color */
   text-decoration: none; /* Remove underline from links */
-  font-family: Oswald; /* Match the font family of the nav links */
   font-weight: bold;
   font-size: 1.5rem;
   margin: 0 10px; /* Add horizontal spacing between icons */

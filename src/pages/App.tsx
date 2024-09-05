@@ -6,6 +6,8 @@ import Contact from "./Contact";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Work from "./Work";
+import DigitalFashion from "./work/digitalfashion";
+import MaDesign from "./work/madesign";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         {/* Updated Route syntax */}
         <Route path="/" element={<Home />} /> {/* Updated Route syntax */}
         {/* Add more routes here */}
+        <Route path="/work/digitalfashion" element={<DigitalFashion />} />
+        <Route path="/work/madesign" element={<MaDesign />} />
       </Routes>
       <Footer />
     </Router>

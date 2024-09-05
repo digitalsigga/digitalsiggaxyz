@@ -85,18 +85,18 @@ h1.rafael {
   }
 
   h1 {
-    font-size: 8rem; /* Smaller font size for tablets */
+    font-size: 9rem; /* Smaller font size for tablets */
   }
 
   h1.rafael {
-    font-size: 8rem; /* Smaller font size for Rafael style on tablets */
+    font-size: 9rem; /* Smaller font size for Rafael style on tablets */
   }
 }
 
 /* For mobile (below 768px) */
 @media (max-width: 768px) {
   .marquee {
-    padding-top: 50px; /* Adjust padding for mobile */
+    padding-top: 60px; /* Adjust padding for mobile */
   }
 
   .marquee-inner span {
@@ -105,10 +105,10 @@ h1.rafael {
   }
 
   h1 {
-    font-size: 5rem; /* Smaller font size for mobile */
+    font-size: 6rem; /* Smaller font size for mobile */
   }
 
   h1.rafael {
-    font-size: 5rem; /* Smaller font size for Rafael style on mobile */
+    font-size: 6rem; /* Smaller font size for Rafael style on mobile */
   }
 }
