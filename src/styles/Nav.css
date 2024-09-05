@@ -52,3 +52,49 @@
 .nav-container .active-link {
   color: var(--accent-color); /* Different color for the active link */
 }
+
+/* For tablets (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .nav-container {
+    padding: 15px; /* Adjust padding for tablets */
+  }
+
+  .nav-container p {
+    font-size: 16px; /* Slightly smaller font size for tablets */
+  }
+
+  .nav-container ul {
+    flex-direction: row; /* Keep horizontal layout for tablets */
+  }
+
+  .nav-container li {
+    margin: 0 10px; /* Adjust space between list items */
+  }
+
+  .nav-container .nav-link {
+    font-size: 1.5rem; /* Slightly smaller font size for tablets */
+  }
+}
+
+/* For mobile (below 768px) */
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .nav-container p {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+
+  .nav-container ul {
+    flex-direction: row; /* Keep horizontal layout for mobile */
+  }
+
+  .nav-container li {
+    margin: 0 8px; /* Adjust space between list items */
+  }
+
+  .nav-container .nav-link {
+    font-size: 1rem; /* Smaller font size for mobile */
+  }
+}

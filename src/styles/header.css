@@ -70,3 +70,45 @@ h1.rafael {
     transform: translateX(-50%);
   }
 }
+
+/* Responsive Styles */
+
+/* For tablets (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .marquee {
+    padding-top: 50px; /* Adjust padding for tablets */
+  }
+
+  .marquee-inner span {
+    font-size: 6vw; /* Smaller font size for tablets */
+    margin-right: 1.5vw; /* Adjust spacing */
+  }
+
+  h1 {
+    font-size: 8rem; /* Smaller font size for tablets */
+  }
+
+  h1.rafael {
+    font-size: 8rem; /* Smaller font size for Rafael style on tablets */
+  }
+}
+
+/* For mobile (below 768px) */
+@media (max-width: 768px) {
+  .marquee {
+    padding-top: 50px; /* Adjust padding for mobile */
+  }
+
+  .marquee-inner span {
+    font-size: 10vw; /* Larger font size for mobile to maintain readability */
+    margin-right: 2vw; /* Adjust spacing */
+  }
+
+  h1 {
+    font-size: 5rem; /* Smaller font size for mobile */
+  }
+
+  h1.rafael {
+    font-size: 5rem; /* Smaller font size for Rafael style on mobile */
+  }
+}

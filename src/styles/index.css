@@ -28,6 +28,7 @@ html {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
 }
 /*
   5. Improve media defaults
@@ -67,4 +68,16 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.125rem; /* 18px for tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.25rem; /* 20px for larger screens */
+  }
 }
