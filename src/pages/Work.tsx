@@ -4,30 +4,31 @@ import { Link } from "react-router-dom";
 function Work() {
   return (
     <div>
-      <h1>This is portfolio</h1>
       <div className="workContainer">
         <div className="card">
-          <Link to="/work/digitalfashion" className="card">
-            <p>Here comes art & design</p>
+          <Link to="/work/madesign">
+            <h2>MA Design</h2>
           </Link>
         </div>
         <div className="card">
-          <p>Another design</p>
+          <Link to="/work/digitalfashion">
+            <h2>Digital Fashion</h2>
+          </Link>
         </div>
         <div className="card">
-          <p>Another design</p>
+          <h2>✯</h2>
         </div>
         <div className="card">
-          <p>Another design</p>
+          <h2>♤</h2>
         </div>
         <div className="card">
-          <p>Another design</p>
+          <h2>♡</h2>
         </div>
         <div className="card">
-          <p>Another design</p>
+          <h2>☂</h2>
         </div>
         <div className="card">
-          <p>Another design</p>
+          <h2>♜</h2>
         </div>
       </div>
     </div>
