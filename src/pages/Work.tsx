@@ -30,6 +30,12 @@ function Work() {
         <div className="card">
           <h2>♜</h2>
         </div>
+        <div className="card">
+          <h2>♡</h2>
+        </div>
+        <div className="card">
+          <h2>☂</h2>
+        </div>
       </div>
     </div>
   );
