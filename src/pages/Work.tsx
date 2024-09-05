@@ -7,7 +7,12 @@ function Work() {
       <div className="workContainer">
         <div className="card">
           <Link to="/work/madesign">
-            <h2>MA Design</h2>
+            <div className="card1">
+              <h2>MA Design</h2>
+              <p>MA project work</p>
+              <p>2017-2019</p>
+              <img></img>
+            </div>
           </Link>
         </div>
         <div className="card">

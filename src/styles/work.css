@@ -1,32 +1,42 @@
-@import url("variables.css");
-
+/* General styles */
 .workContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 60px;
+  margin: 0px;
   margin-top: 2em;
   flex-wrap: wrap; /* Allows wrapping of cards to the next line */
   gap: 3rem; /* Space between cards */
 }
 
 .card {
-  background-color: #f9f9f9; /* Card background color */
+  background-color: var(--background-color); /* Card background color */
   padding: 16px; /* Padding inside the card */
-  box-shadow: 0 4px 8px var(--wine-color); /* Card shadow */
-  width: 200px; /* Width of each card */
-  height: 200px;
+  border: 1px solid var(--secondary-color);
+  width: 100%; /* Let the card take full width by default */
+  max-width: 700px; /* But limit its width to 700px on larger screens */
+  min-height: 300px; /* Minimum height, smaller than before */
   text-align: center; /* Center text inside card */
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center content vertically within the card */
-  flex: 1 1 200px; /* Allows the card to grow and shrink but maintains minimum width */
 }
 
-/* Media queries to control the number of cards per row */
-@media (min-width: 600px) {
+/* Media queries for responsive design */
+
+/* Mobile screens (up to 599px) */
+@media (max-width: 599px) {
   .card {
-    flex: 1 1 calc(33.333% - 3rem); /* 3 cards per row, adjust based on gap */
+    width: 100%; /* Let the card take the full width of the screen */
+    min-height: 300px; /* Smaller height for mobile screens */
+  }
+}
+
+/* Tablets and small screens (600px to 899px) */
+@media (min-width: 600px) and (max-width: 899px) {
+  .card {
+    flex: 1 1 calc(50% - 3rem); /* 2 cards per row, adjust based on gap */
   }
   .workContainer {
     margin: 20px;
@@ -34,9 +44,10 @@
   }
 }
 
+/* Laptops and larger screens (900px and above) */
 @media (min-width: 900px) {
   .card {
-    flex: 1 1 calc(25% - 3rem); /* 4 cards per row, adjust based on gap */
+    flex: 1 1 calc(33.333% - 3rem); /* 3 cards per row, adjust based on gap */
   }
   .workContainer {
     margin: 30px;
