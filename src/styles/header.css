@@ -6,25 +6,67 @@
   font-style: normal;
 }
 
-.header {
-  display: flex;
-  color: rgb(236, 2, 2);
-  padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: center;
-  margin-top: 70px;
-}
-
-.rafael {
-  font-family: "Rafael", sans-serif; /* Apply it globally or customize as needed */
-}
+/* --wine-color: #a52a2a; /* Rich wine color for sophistication */
+/* --chocolate-color: #3e2723; /* Dark chocolate brown for warmth (same as primary) */
+/* --unbothered-color: #008080 */
 
 h1 {
   font-family: Merriweather;
-  font-size: 7rem;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
+  font-size: 10rem;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    var(--wine-color),
+    var(--chocolate-color),
+    var(--unbothered-color)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 5s ease-in-out infinite;
+  background-size: 200% 200%;
+}
+
+h1.rafael {
+  font-family: rafael;
+  font-size: 9rem;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.marquee {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.marquee-inner {
+  display: flex;
+  white-space: nowrap;
+  animation: loopText 30s ease-in-out infinite;
+}
+
+.marquee-inner span {
+  font-size: 8vw; /* Adjust size based on screen width */
+  margin-right: 2vw; /* Add some spacing between repetitions */
+}
+
+@keyframes loopText {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }

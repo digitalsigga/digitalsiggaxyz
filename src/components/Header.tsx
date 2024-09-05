@@ -2,13 +2,18 @@ import "../styles/header.css";
 
 function Header() {
   return (
-    <div className="header">
-      <h1>
-        <span className="rafael">DIGITAL SIGGA</span> is a digital fashion
-        <span className="rafael"> DESIGNER</span> and a web
-        <span className="rafael"> DEVELOPER</span>
-      </h1>
-    </div>
+    <>
+      <div className="marquee">
+        <div className="marquee-inner">
+          <span>
+            <h1 className="rafael">
+              Digital Sigga is a digital fashion designer, artist and web
+              developer
+            </h1>
+          </span>
+        </div>
+      </div>
+    </>
   );
 }
 
