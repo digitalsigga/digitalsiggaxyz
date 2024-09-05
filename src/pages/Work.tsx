@@ -17,13 +17,13 @@ function Work() {
           </Link>
         </div>
         <div className="card">
-          <Link to="/work/madeisgn">
+          <Link to="/work/madesign">
             <div>
               <img
-                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/WaningMoon1_lrljga.png"
-                alt="Woman wearing digital design with a moon sculpture on top of her head"
+                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725555871/Sigridur_Birna_Filtorial_Rakata_a3k1y1.jpg"
+                alt="Woman laying in the grass, with weird eyes"
               ></img>
-              <h2>Ma Design</h2>
+              <h2>MA Design</h2>
             </div>
           </Link>
         </div>
