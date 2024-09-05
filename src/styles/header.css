@@ -85,11 +85,7 @@ h1.rafael {
   }
 
   h1 {
-    font-size: 9rem; /* Smaller font size for tablets */
-  }
-
-  h1.rafael {
-    font-size: 9rem; /* Smaller font size for Rafael style on tablets */
+    font-size: 10rem; /* Smaller font size for tablets */
   }
 }
 
@@ -105,10 +101,6 @@ h1.rafael {
   }
 
   h1 {
-    font-size: 6rem; /* Smaller font size for mobile */
-  }
-
-  h1.rafael {
-    font-size: 6rem; /* Smaller font size for Rafael style on mobile */
+    font-size: 8rem; /* Smaller font size for mobile */
   }
 }
