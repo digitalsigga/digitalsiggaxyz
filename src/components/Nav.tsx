@@ -35,7 +35,7 @@ function Nav() {
             Work
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="../pages/contact"
             className={({ isActive }) =>
@@ -44,7 +44,7 @@ function Nav() {
           >
             Contact
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

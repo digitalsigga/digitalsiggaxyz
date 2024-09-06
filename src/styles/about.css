@@ -2,10 +2,59 @@
 
 .aboutContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   width: 80vw;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 20px;
+}
+
+.aboutLeft,
+.aboutRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1; /* Allows both divs to grow equally */
+  flex-shrink: 1; /* Allows both divs to shrink equally */
+  flex-basis: 0; /* Makes the initial width of both divs 0, enabling flex-grow to take full effect */
+  margin: 20px;
+}
+
+.aboutContent {
+  margin-top: 30px;
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  .aboutContainer {
+    width: 90vw; /* Reduce width for tablets */
+    flex-direction: column; /* Stack the items vertically */
+    padding-top: 15px;
+  }
+
+  .aboutLeft,
+  .aboutRight {
+    margin: 15px 0; /* Less margin between sections */
+  }
+
+  .aboutContent {
+    margin-top: 20px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .aboutContainer {
+    width: 95vw; /* Even smaller width for mobile */
+    padding-top: 10px;
+  }
+
+  .aboutLeft,
+  .aboutRight {
+    margin: 10px 0;
+  }
+
+  .aboutContent {
+    margin-top: 15px;
+  }
 }
