@@ -52,8 +52,9 @@ h2 {
 }
 
 .card img {
-  width: 100%; /* Ensures the image fits the card width */
-  height: auto;
+  width: 300px; /* or any desired width */
+  height: 400px; /* or any desired height */
+  object-fit: cover; /* This will crop the image */
   border-radius: 2px;
   margin-top: 15px;
   object-fit: cover;
