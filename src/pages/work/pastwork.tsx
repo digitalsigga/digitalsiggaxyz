@@ -86,8 +86,14 @@ const projects: Project[] = [
     name: "Human human",
     year: 2021,
     images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911719/PastWork/Human%20human/look_4_back_cwdlvh.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911721/PastWork/Human%20human/rendera4_x6rit2.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911749/PastWork/Human%20human/rendernr444444_73_kzm4jj.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911766/PastWork/Human%20human/rendera4_63_agnf9m.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911760/PastWork/Human%20human/rendera4_34_lql9xb.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911729/PastWork/Human%20human/look3vol22_45_j6ueyo.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911719/PastWork/Human%20human/look3render2_u72ej0.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725911718/PastWork/Human%20human/look_12_hshcv8.png",
     ],
     description: (
       <span>
