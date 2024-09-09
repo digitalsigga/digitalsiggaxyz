@@ -33,7 +33,7 @@
 .dropdown-content {
   display: block;
   position: absolute;
-  background-color: white;
+  background-color: var(--background-color);
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -84,7 +84,7 @@ a {
   margin-bottom: 40px;
   width: 80%;
   max-width: 1200px;
-  background-color: white;
+  background-color: var(--background-color)
   border-radius: 10px;
 }
 

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "../../styles/digitalfashion.css"; // Import the CSS file
+import "../../styles/pastwork.css"; // Import the CSS file
 
 interface Project {
   name: string;
@@ -88,7 +88,26 @@ const projects: Project[] = [
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
     ],
-    description: "Description for House of Error",
+    description: (
+      <span>
+        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
+        Sólveig Dóra Hansdóttir
+        <br />
+        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
+        <br />
+        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+      </span>
+    ),
+    credits: (
+      <span>
+        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
+        Sólveig Dóra Hansdóttir
+        <br />
+        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
+        <br />
+        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+      </span>
+    ),
   },
   {
     name: "The Second Self",
@@ -97,7 +116,26 @@ const projects: Project[] = [
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
     ],
-    description: "Description for House of Error",
+    description: (
+      <span>
+        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
+        Sólveig Dóra Hansdóttir
+        <br />
+        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
+        <br />
+        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+      </span>
+    ),
+    credits: (
+      <span>
+        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
+        Sólveig Dóra Hansdóttir
+        <br />
+        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
+        <br />
+        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+      </span>
+    ),
   },
   {
     name: "AR filters",
@@ -106,7 +144,26 @@ const projects: Project[] = [
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
     ],
-    description: "Description for House of Error",
+    description: (
+      <span>
+        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
+        Sólveig Dóra Hansdóttir
+        <br />
+        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
+        <br />
+        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+      </span>
+    ),
+    credits: (
+      <span>
+        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
+        Sólveig Dóra Hansdóttir
+        <br />
+        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
+        <br />
+        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+      </span>
+    ),
   },
   {
     name: "Do it for the Gram",
