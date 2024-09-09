@@ -14,7 +14,6 @@ function DigitalFashion() {
     "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725703167/Digital%20Fashion/DSDB7_lcuzpd.png",
     "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725703168/Digital%20Fashion/DSDB8_llbmgy.png",
     "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725703169/Digital%20Fashion/DSDB9_j5wjgp.png",
-
     // Add more image URLs here if needed
   ];
 

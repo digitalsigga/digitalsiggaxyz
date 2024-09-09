@@ -9,7 +9,7 @@ function Work() {
           <Link to="/work/digitalfashion">
             <div>
               <img
-                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/WaningMoon1_lrljga.png"
+                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png"
                 alt="Woman wearing digital design with a moon sculpture on top of her head"
               ></img>
               <h2>Digital Fashion</h2>
@@ -20,7 +20,7 @@ function Work() {
           <Link to="/work/madesign">
             <div>
               <img
-                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725555871/Sigridur_Birna_Filtorial_Rakata_a3k1y1.jpg"
+                src="https://res.cloudinary.com/dvlggqgbf/image/upload/v1725555871/MA%20Design/Sigridur_Birna_Filtorial_Rakata_a3k1y1.jpg"
                 alt="Woman laying in the grass, with weird eyes"
               ></img>
               <h2>MA Design</h2>

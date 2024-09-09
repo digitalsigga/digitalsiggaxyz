@@ -1,60 +1,49 @@
-@import url("variables.css");
-
 .aboutContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
   width: 80vw;
   margin: 0 auto;
   padding-top: 20px;
 }
 
-.aboutLeft,
+.aboutLeft {
+  flex: 1;
+  margin-right: 40px;
+  text-align: left;
+}
+
 .aboutRight {
+  flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-grow: 1; /* Allows both divs to grow equally */
-  flex-shrink: 1; /* Allows both divs to shrink equally */
-  flex-basis: 0; /* Makes the initial width of both divs 0, enabling flex-grow to take full effect */
-  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
 }
 
-.aboutContent {
-  margin-top: 30px;
+h1 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  color: var(--wine-color);
+  font-size: 3rem;
 }
 
-/* Tablet styles */
-@media (max-width: 1024px) {
-  .aboutContainer {
-    width: 90vw; /* Reduce width for tablets */
-    flex-direction: column; /* Stack the items vertically */
-    padding-top: 15px;
-  }
-
-  .aboutLeft,
-  .aboutRight {
-    margin: 15px 0; /* Less margin between sections */
-  }
-
-  .aboutContent {
-    margin-top: 20px;
-  }
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: var(--unbothered-color);
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
-  .aboutContainer {
-    width: 95vw; /* Even smaller width for mobile */
-    padding-top: 10px;
-  }
-
-  .aboutLeft,
-  .aboutRight {
-    margin: 10px 0;
-  }
-
-  .aboutContent {
-    margin-top: 15px;
-  }
+p,
+a {
+  font-family: "Merriweather", serif; /* Ensure it uses the same font */
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: var(--text-color);
 }
