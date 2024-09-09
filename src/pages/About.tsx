@@ -10,8 +10,8 @@ function About() {
     <div className="aboutContainer">
       <div className="aboutLeft">
         <section id="bio">
-          <h1>Sigríður Birna Matthíasdóttir / Digital Sigga</h1>
-          <h2>Digital Artist, Designer & Programmer</h2>
+          <h1>Sigríður Birna Matthíasdóttir | Digital Sigga</h1>
+          <h2>Digital Artist | Designer | Programmer</h2>
           <p>
             Sigríður Birna Matthíasdóttir, also known as{" "}
             <strong>Digital Sigga</strong>, is an Icelandic digital artist,

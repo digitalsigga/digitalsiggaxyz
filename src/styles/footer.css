@@ -9,9 +9,6 @@
   left: 0; /* Positions the footer at the left edge of the viewport */
   width: 100vw; /* Ensures the footer stretches across the full width */
   box-sizing: border-box;
-  background-color: var(
-    --background-color
-  ); /* Set a background color if needed */
   color: var(--primary-color); /* White text color */
 }
 
