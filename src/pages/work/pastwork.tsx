@@ -59,6 +59,15 @@ const projects: Project[] = [
         later showcased at Design March 2023 in the Nordic House Iceland. It
         also featured at Hafnarhaus for Vetrarhátið and again for Menningarnótt
         2024.
+        <br />
+        <br />
+        <a
+          href="https://www.youtube.com/watch?v=Pv49iZMVhDA"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Watch the film here.
+        </a>
       </span>
     ),
     credits: (
