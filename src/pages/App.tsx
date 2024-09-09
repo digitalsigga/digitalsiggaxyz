@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Work from "./Work";
 import DigitalFashion from "./work/digitalfashion";
-import MaDesign from "./work/madesign";
+import MaDesign from "./work/pastwork";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
         <Route path="/" element={<Home />} /> {/* Updated Route syntax */}
         {/* Add more routes here */}
         <Route path="/work/digitalfashion" element={<DigitalFashion />} />
-        <Route path="/work/madesign" element={<MaDesign />} />
+        <Route path="/work/pastwork" element={<MaDesign />} />
       </Routes>
       <Footer />
     </Router>

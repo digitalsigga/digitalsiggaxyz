@@ -14,17 +14,20 @@
 }
 
 .dropdown-button {
+  background-color: var(--background-color);
   padding: 10px 20px;
   border: none;
-  background-color: var(--secondary-color);
-  color: white;
-  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  color: var(--wine-color);
+  font-size: 2rem;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .dropdown-button:hover {
-  background-color: var(--accent-color);
+  background-color: var(--unbothered-color);
+  color: white;
 }
 
 .dropdown-content {
@@ -99,17 +102,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-/* 
-.image-scroll {
-  display: flex;
-  padding: 10px;
-}
-
-.image-scroll img {
-  margin-right: 10px;
-  max-height: 300px;
-  flex-shrink: 0;
-} */
 
 .image-nav {
   position: absolute;

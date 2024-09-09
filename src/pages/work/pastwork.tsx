@@ -5,7 +5,8 @@ interface Project {
   name: string;
   year: number;
   images: string[];
-  description: string;
+  description: JSX.Element;
+  credits: JSX.Element;
 }
 
 const projects: Project[] = [
@@ -13,10 +14,63 @@ const projects: Project[] = [
     name: "Netizens",
     year: 2022,
     images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725893305/PastWork/0001_rdnvha.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892990/PastWork/0206_x645bz.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892988/PastWork/0132_nxwude.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892988/PastWork/0276_km03a8.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892983/PastWork/Look1003_pzibpl.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892984/PastWork/Look2a_hvmhqc.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892981/PastWork/7_ae3tvv.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892983/PastWork/8_n7qjfz.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892979/PastWork/Look3_tot4id.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892979/PastWork/Look3a_ixghil.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892974/PastWork/8_rpkvdm.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892994/PastWork/Look1_9_cpsugj.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892994/PastWork/Look1_10_xxccq2.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892992/PastWork/Horselook001_3_aftteu.png",
     ],
-    description: "Description for House of Error",
+    description: (
+      <span>
+        <strong>Netizens Collective</strong> is an interdisciplinary,
+        concept-driven digital fashion group founded by fashion designer{" "}
+        <strong>Sól Hansdóttir</strong>
+        and <strong>Digital Sigga</strong>. Though Netizens managed to produce
+        their first collection, the project was temporarily paused due to other
+        commitments.
+        <br />
+        <br />
+        The collective’s only experimental collection, <em>Kuml</em>, is an
+        innovative fashion film inspired by the concept of "Burials and Grave
+        Goods" (<em>Kuml og haugfé</em>) from the Viking Age. This future-facing
+        afterlife experiment explores the notion of rebirth in a digital world,
+        imagining how burial traditions might evolve. In Viking times, items
+        such as jewelry, tools, and even animals were interred with the dead,
+        and <em>Kuml</em> reimagines these practices for the digital age.
+        <br />
+        <br />
+        The <em>Kuml</em> collection includes three distinct looks, each set in
+        a separate architectural monument designed by architect{" "}
+        <strong>Arís Eva Vilhelmsdóttir</strong>, with each site evoking a
+        burial space. The project was awarded a grant by the Icelandic Design
+        Fund.
+        <br />
+        <br />
+        The <em>Kuml</em> fashion film debuted at Dutch Design Week 2022 and was
+        later showcased at Design March 2023 in the Nordic House Iceland. It
+        also featured at Hafnarhaus for Vetrarhátið and again for Menningarnótt
+        2024.
+      </span>
+    ),
+    credits: (
+      <span>
+        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
+        Sólveig Dóra Hansdóttir
+        <br />
+        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
+        <br />
+        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+      </span>
+    ),
   },
   {
     name: "Human human",
@@ -76,9 +130,11 @@ const projects: Project[] = [
   // Add other projects similarly
 ];
 
-const MaDesign: React.FC = () => {
+const PastWork: React.FC = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
-  const [currentImage, setCurrentImage] = useState<string | null>(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState<number[]>(
+    projects.map(() => 0)
+  );
 
   // Create refs for each project
   const projectRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -88,15 +144,16 @@ const MaDesign: React.FC = () => {
     direction: "next" | "prev"
   ) => {
     const activeProject = projects[projectIndex];
-    if (currentImage) {
-      const currentIndex = activeProject.images.indexOf(currentImage);
-      const newIndex =
-        direction === "next"
-          ? (currentIndex + 1) % activeProject.images.length
-          : (currentIndex - 1 + activeProject.images.length) %
-            activeProject.images.length;
-      setCurrentImage(activeProject.images[newIndex]);
-    }
+    const newIndex =
+      direction === "next"
+        ? (currentImageIndex[projectIndex] + 1) % activeProject.images.length
+        : (currentImageIndex[projectIndex] - 1 + activeProject.images.length) %
+          activeProject.images.length;
+    setCurrentImageIndex((prevIndexes) => {
+      const newIndexes = [...prevIndexes];
+      newIndexes[projectIndex] = newIndex;
+      return newIndexes;
+    });
   };
 
   const scrollToProject = (index: number) => {
@@ -138,6 +195,7 @@ const MaDesign: React.FC = () => {
           <div className="project-text">
             <h2>{project.name}</h2>
             <p>{project.description}</p>
+            <p>{project.credits}</p>
           </div>
           <div className="project-images">
             <button
@@ -146,8 +204,11 @@ const MaDesign: React.FC = () => {
             >
               ‹
             </button>
-            {project.images[0] && (
-              <img src={project.images[0]} alt={`${project.name} image`} />
+            {project.images.length > 0 && (
+              <img
+                src={project.images[currentImageIndex[index]]}
+                alt={`${project.name} image`}
+              />
             )}
             <button
               className="image-nav next"
@@ -162,4 +223,4 @@ const MaDesign: React.FC = () => {
   );
 };
 
-export default MaDesign;
+export default PastWork;
