@@ -47,3 +47,63 @@ a {
   font-size: 1.2rem;
   color: var(--text-color);
 }
+
+/* Responsive styles for tablets (iPad) */
+@media (max-width: 1024px) {
+  .aboutContainer {
+    flex-direction: column;
+    width: 90vw; /* Adjust width as needed */
+  }
+
+  .aboutLeft {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add space between text and image on small screens */
+  }
+
+  .aboutRight {
+    min-height: auto;
+  }
+
+  h1 {
+    font-size: 2.5rem; /* Adjust font size for tablets */
+  }
+
+  h2 {
+    font-size: 1.75rem; /* Adjust font size for tablets */
+  }
+
+  p,
+  a {
+    font-size: 1.1rem; /* Adjust font size for tablets */
+  }
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column;
+    width: 90vw; /* Adjust width as needed */
+  }
+
+  .aboutLeft {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add space between text and image on small screens */
+  }
+
+  .aboutRight {
+    min-height: auto;
+  }
+
+  h1 {
+    font-size: 2rem; /* Adjust font size for mobile screens */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* Adjust font size for mobile screens */
+  }
+
+  p,
+  a {
+    font-size: 1rem; /* Adjust font size for mobile screens */
+  }
+}
