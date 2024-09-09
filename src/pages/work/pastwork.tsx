@@ -14,20 +14,21 @@ const projects: Project[] = [
     name: "Netizens",
     year: 2022,
     images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725893305/PastWork/0001_rdnvha.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892990/PastWork/0206_x645bz.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892988/PastWork/0132_nxwude.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892988/PastWork/0276_km03a8.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892983/PastWork/Look1003_pzibpl.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892984/PastWork/Look2a_hvmhqc.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892981/PastWork/7_ae3tvv.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892983/PastWork/8_n7qjfz.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892979/PastWork/Look3_tot4id.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892979/PastWork/Look3a_ixghil.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892974/PastWork/8_rpkvdm.jpg",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892994/PastWork/Look1_9_cpsugj.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892994/PastWork/Look1_10_xxccq2.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892992/PastWork/Horselook001_3_aftteu.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892983/PastWork/Netizens/Look1003_pzibpl.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892978/PastWork/Netizens/0001_uoyk6v.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892984/PastWork/Netizens/Look2a_hvmhqc.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892985/PastWork/Netizens/Look2_g78fch.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892979/PastWork/Netizens/Look3a_ixghil.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892979/PastWork/Netizens/Look3_tot4id.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892986/PastWork/Netizens/0050_tdfnqk.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892986/PastWork/Netizens/0001_6_x0pwmh.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892988/PastWork/Netizens/0132_nxwude.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892989/PastWork/Netizens/0276_1_adw5uu.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892990/PastWork/Netizens/0206_x645bz.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892994/PastWork/Netizens/Look1_9_cpsugj.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892994/PastWork/Netizens/Look1_10_xxccq2.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892992/PastWork/Netizens/Horselook001_3_aftteu.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725892991/PastWork/Netizens/Horselook001_2_yvln19.png",
     ],
     description: (
       <span>
@@ -90,22 +91,37 @@ const projects: Project[] = [
     ],
     description: (
       <span>
-        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
-        Sólveig Dóra Hansdóttir
+        <strong>Human Human</strong> is an experimental project inspired by
+        Brian Christian’s book
+        <em>
+          The Most Human Human: What Talking with Computers Teaches Us About
+          What It Means to Be Alive
+        </em>
+        . It explores the potential of AI to engage with creativity, emotional
+        intelligence, and self-awareness.
         <br />
-        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
         <br />
-        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+        Through structured dialogues, the project pushes ChatGPT beyond its
+        computational abilities, probing its originality, empathy, and
+        introspection. These conversations challenge the boundaries between
+        artificial and human thought, raising questions about the nature of
+        intelligence and what defines humanity in a world of evolving
+        technology.
+        <br />
+        <br />
+        More than a tech experiment, <em>Human Human</em> is a reflection on the
+        convergence of organic and synthetic realms, urging viewers to
+        reconsider what it means to be human as the line between man and machine
+        blurs. Ultimately, it asks us to reflect on thought, emotion, and
+        creativity in a world where AI increasingly mimics human traits.
+        <br />
+        <br />
+        <em>Human Human</em> was presented at the Gerðarsafn Museum in 2021.
       </span>
     ),
     credits: (
       <span>
-        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
-        Sólveig Dóra Hansdóttir
-        <br />
-        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
-        <br />
-        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+        <strong>Sound</strong> Bjarki
       </span>
     ),
   },
