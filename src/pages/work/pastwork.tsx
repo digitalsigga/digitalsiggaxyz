@@ -297,29 +297,191 @@ const projects: Project[] = [
   {
     name: "Do it for the Gram",
     year: 2019,
-    images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-    ],
-    description: "Description for House of Error",
+    images: [],
+    description: (
+      <span>
+        <h3>Do It for the Gram</h3>
+        <p>
+          Cyborg Anthropology, a field concerned with the blend of humans and
+          technology, introduces the concept of the 'Second Self' as a
+          descriptor for one's online or external identity. This online persona
+          doesn't merely exist in parallel with our offline existence; it is
+          becoming an integral extension of our true selves. Just as we care for
+          our offline image, the online self demands attention, maintenance, and
+          presentation.
+        </p>
+        <p>
+          A paradigm shift in the age of social media has democratized
+          influence. Fashion titans, acclaimed brands, and influential magazines
+          have seen their power wane, giving way to everyday individuals on
+          platforms like Instagram. This democratization has led to the
+          commercialization of influence, with regular individuals now
+          monetizing their vast online followings by endorsing products,
+          particularly in the fashion industry.
+        </p>
+        <p>
+          However, this trend comes with its own caveats. Instagram influencers
+          often display a constant stream of new products, perpetuating the
+          notion that once showcased, an item should never be repeated. This
+          relentless cycle of consumption and display hints at the ever-evolving
+          nature of our 'Second Self'.
+        </p>
+        <p>
+          In the digital age, there has been a burgeoning potential to
+          articulate oneself through virtual fashion, bypassing the need for
+          physical material goods. The importance of adorning the body,
+          virtually or physically, remains consistent. Yet, in the virtual
+          realm, the body undergoes a transformation. It becomes a cyborg
+          entity, more malleable and perfectible than its biological
+          counterpart. Moreover, events in the virtual space don't occur in
+          isolation; they ripple into the physical realm, influencing and being
+          influenced by tangible occurrences.
+        </p>
+        <p>
+          Delving into this concept, the project's approach was inherently
+          reflexive. Given its concern with the performance of the self, the
+          creator became the muse. This journey was one of introspection,
+          experimentation, and visual translation. Complexities emerged at every
+          turn, necessitating a multi-faceted exploration.
+        </p>
+        <p>
+          The project's speculative nature led to the creation of a
+          photorealistic avatar, an embodiment of the designer, pushing the
+          boundaries of what defines reality and identity in digital spaces.
+        </p>
+        <p>
+          In a climactic culmination, the final exhibition juxtaposed the
+          creator's digital and physical identities. Videos of the designer and
+          her avatar, both adorned in similar fashion, oscillated between the
+          real and the virtual, prompting viewers to ponder the interplay
+          between these realms.
+        </p>
+        <p>
+          At its core, "Do It for the Gram" doesn't seek to provide definitive
+          answers. Instead, as a speculative design project, it nudges viewers
+          towards introspection. What does authenticity mean in a digital age?
+          If an avatar, a true replica of oneself, acts in a controversial
+          manner, who bears the responsibility? This project is an invitation to
+          question, to reflect, and to understand the evolving dance between our
+          primary and second selves in an increasingly digital world.
+        </p>
+      </span>
+    ),
+    credits: undefined,
   },
   {
     name: "Piece of me",
     year: 2018,
-    images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-    ],
-    description: "Description for House of Error",
+    images: [],
+    description: (
+      <span>
+        <h3>Piece of Me</h3>
+        <p>
+          Continuing from the foundations set by the "Digital Paper Doll"
+          project, Digital Sigga delved deeper into the interplay between the
+          virtual and physical worlds. The next endeavor, titled "Piece of Me,"
+          saw her grappling with a pivotal question: Would the culmination of
+          her exploration be a tangible representation of the virtual or a
+          virtual manifestation of the physical?
+        </p>
+        <p>
+          In pursuit of this answer, Digital Sigga experimented with both
+          realms. She took plaster imprints of various body parts while
+          concurrently venturing into 3D scanning. This learning journey wasn't
+          without its pitfalls, resulting in unexpected malfunctions and
+          glitches. Interestingly, many find that these glitches in
+          computer-generated imagery possess a certain aesthetic appeal, a
+          sentiment with which Digital Sigga resonated. Her ambition for "Piece
+          of Me" was to bridge the digital to the tangible, both in aesthetics
+          and philosophy.
+        </p>
+        <p>
+          In the realm of social media, individuals often present a meticulously
+          curated slice of their existence for public consumption. This act
+          symbolizes offering a fragment of oneself. A notable product of this
+          digital era is the selfie, frequently viewed as the pinnacle of
+          self-indulgence and vanity. Yet, selfies also serve as powerful tools
+          of emancipation, especially in the rise of selfie-feminism, which
+          lauds the female perspective. With the intention of translating this
+          digital self-presentation to a tangible medium, Digital Sigga chose an
+          unlikely canvas—a cake.
+        </p>
+        <p>
+          By leveraging a plaster imprint of her face, she crafted a silicon
+          mold for baking. Collaborating with a local bakery, she overlaid the
+          cake with a digitally printed marzipan rendition of her own selfie,
+          one that had been processed using a face filter on Instagram. The
+          deliberate juxtaposition of a two-dimensional image atop a
+          three-dimensional form aimed to emulate the aesthetic glitches often
+          seen in 3D scanning and other digital processes.
+        </p>
+      </span>
+    ),
+    credits: undefined,
   },
   {
     name: "Paperdoll",
     year: 2018,
-    images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-    ],
-    description: "Description for House of Error",
+    images: [],
+    description: (
+      <span>
+        <h3>Digital Paper Doll</h3>
+        <p>
+          At the inception of the Digital Sigga journey, there was an intrigue
+          surrounding the art of refining images for online display. This
+          curiosity was about ensuring images look flawless but also maintaining
+          an illusion of authenticity. With the proliferation of mobile photo
+          editing apps, which are more user-friendly than tools like Photoshop,
+          it's become easy for anyone to tweak their images before showcasing
+          them online.
+        </p>
+        <p>
+          For a preliminary exploration, Digital Sigga experimented with
+          personal photos. This involved standard alterations provided by mobile
+          editors such as eye enlargement and skin smoothing. An aspiration to
+          superimpose high-end clothing, like an Acne Studio shirt, onto the
+          image was also pursued. However, this attempt clashed with the
+          presence of a coat already in the image. The final product resembled a
+          paper collage, giving the figure a doll-like appearance.
+        </p>
+        <p>
+          This intriguing result paved the way for the first major project under
+          the Digital Sigga name. An online avatar was conceived, reminiscent of
+          traditional paper dolls—two-dimensional figures complemented by
+          paper-made outfits. A photograph was taken in minimal clothing, posing
+          in a way that would easily facilitate the addition of digital outfits.
+          Unlike the traditional paper doll meant for physical play, this
+          version was explicitly digital.
+        </p>
+        <p>
+          Harnessing the power of the internet, Digital Sigga scoured designers'
+          websites to curate outfits. These clothing images were then
+          superimposed onto the digital paper doll. This process allowed for a
+          constantly evolving wardrobe without any real-world purchases. The
+          resulting outfits were then showcased on an Instagram account.
+        </p>
+        <p>
+          Dubbed the "Digital Paper Doll," this avatar, though derived from a
+          photograph of its creator, stands as a distinct entity. Images of the
+          doll, always in a consistent stance and facial expression, highlight
+          varying fashion statements. The distinction between images of the doll
+          and its real-life counterpart lies not in appearance but in the doll's
+          dynamic fashion presentation.
+        </p>
+        <p>
+          This project aimed to probe the online notions of authenticity and
+          highlight the ironic reliance on tangible, mass-produced items to
+          convey individualism in the digital realm. It's important to remember
+          that platforms like Instagram allow users to share visual narratives.
+          However, these digital images are merely two-dimensional glimpses into
+          reality—carefully curated facades that often omit the broader picture.
+          The Digital Sigga project underscores that in the digital age,
+          material possessions might not be essential to curate these visual
+          stories.
+        </p>
+      </span>
+    ),
+    credits: undefined,
   },
 
   // Add other projects similarly
