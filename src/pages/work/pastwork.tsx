@@ -122,7 +122,30 @@ const projects: Project[] = [
         creativity in a world where AI increasingly mimics human traits.
         <br />
         <br />
-        <em>Human Human</em> was presented at the Gerðarsafn Museum in 2021.
+        <em>
+          <a
+            href="https://www.youtube.com/watch?v=gRijSnyp6WE&t=7s"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Human human, conversation with AI, video 1.
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=onpWtah3Dks"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Human human, conversation with AI, video 2.
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=Ke4yYlSzUvI&t=3s"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Human human, conversation with AI, video 3.
+          </a>
+        </em>{" "}
+        Human human was presented at the Gerðarsafn Museum in 2021.
       </span>
     ),
     credits: (
@@ -135,29 +158,80 @@ const projects: Project[] = [
     name: "The Second Self",
     year: 2020,
     images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958571/PastWork/SecondSelf/simi_i_klofi_7_asfbfu.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958573/PastWork/SecondSelf/simi_i_klofi_8_wycwws.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958583/PastWork/SecondSelf/vol1_gpnh9y.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958563/PastWork/SecondSelf/sfffs_az0w2i.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958578/PastWork/SecondSelf/studiosssss_qs2sf7.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958557/PastWork/SecondSelf/Look_i_vinnslu_11_fbwqsl.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958544/PastWork/SecondSelf/Linger1e_e4etke.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958541/PastWork/SecondSelf/Look_i_vinnslu_2_za5kzx.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958530/PastWork/SecondSelf/glittergrl4_qko33b.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958528/PastWork/SecondSelf/glitter_grl1_gzjsf6.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958525/PastWork/SecondSelf/glittergrl2_mvsjjd.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958520/PastWork/SecondSelf/Default_Modelist_4_axjpwt.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958522/PastWork/SecondSelf/Default_Modelist_6_bghxaf.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958518/PastWork/SecondSelf/Default_Modelist_5_aorl22.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958484/PastWork/SecondSelf/medtippiipeys_12_ltvahs.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958479/PastWork/SecondSelf/Penis_2_umcecy.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958462/PastWork/SecondSelf/hanskataska_project_22_vozd4w.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958448/PastWork/SecondSelf/handataska_%C3%B0projevt_39_t5vfpg.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958425/PastWork/SecondSelf/faranlegssta_lookid_2_xj9yqs.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958420/PastWork/SecondSelf/faranlegssta_lookid_3_t81rx8.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958415/PastWork/SecondSelf/Default_Modelist_3_ao52da.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958403/PastWork/SecondSelf/skikkjavol1_1_q3bvae.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958401/PastWork/SecondSelf/skikkjavol1_2_bbqdpa.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958263/PastWork/SecondSelf/tv%C3%A6r_linur_ut_2_jz2pij.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958257/PastWork/SecondSelf/tvo_fot_hanga_a_sla_1_jo45es.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725958254/PastWork/SecondSelf/fot_hanga_utum_eyru_1_i8le8i.png",
     ],
     description: (
       <span>
-        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
-        Sólveig Dóra Hansdóttir
-        <br />
-        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
-        <br />
-        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+        <>
+          <p>
+            Following the project <em>"Do It for the Gram"</em>, the journey
+            with the digital avatar — an uncanny replica of the creator —
+            evolved into a deeper exploration of digital identity. This project
+            focuses on the objectification of the self in the virtual world and
+            the complex ethical questions that arise in the digital frontier.
+          </p>
+          <p>
+            Inspired by works such as Elizabeth Wilson’s{" "}
+            <em>Adorned in Dreams</em> and Jean Baudrillard’s{" "}
+            <em>Simulacra and Simulation</em>, the avatar's exploration
+            highlights the dual role of the self as both observer and observed
+            in a society where identities are constantly curated, commodified,
+            and consumed online. The digital avatar became a key tool in
+            understanding how we package, present, and perceive ourselves in the
+            digital age.
+          </p>
+          <p>
+            The ethical landscape of platforms like OnlyFans was a significant
+            focus. Through the avatar, the project raises questions about
+            digital consent, agency, and the commodification of virtual
+            identity. What happens when a digital replica, representing the
+            self, becomes an object for consumption?
+          </p>
+          <p>
+            Drawing from Eric Hoffman’s <em>The Performance of the Self</em>,
+            the project examined the performative nature of online personas,
+            exploring how they influence audience perceptions and expectations.
+            Virtual celebrities like Hatsune Miku and Gorillaz further deepened
+            the discussion on how we relate to fully digital beings, and whether
+            they reflect society’s increasing immersion into a virtual world.
+          </p>
+          <p>
+            Donna Haraway’s <em>Staying with the Trouble</em> provided a guiding
+            framework, suggesting that the divide between the digital and real
+            is increasingly blurred, if it ever truly existed. The avatar's
+            evolution into a touchpoint for exploring identity, objectification,
+            and ethics encourages reflection on how technology continues to
+            reshape our values and perceptions of reality.
+          </p>
+        </>
       </span>
     ),
-    credits: (
-      <span>
-        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
-        Sólveig Dóra Hansdóttir
-        <br />
-        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
-        <br />
-        <strong>Sound</strong> Jack Armitage & Ari Árelíus
-      </span>
-    ),
+    credits: undefined,
   },
   {
     name: "AR filters",
