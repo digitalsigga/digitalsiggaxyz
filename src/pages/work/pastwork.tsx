@@ -237,29 +237,62 @@ const projects: Project[] = [
     name: "AR filters",
     year: 2019,
     images: [
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725544743/Digital%20Fashion/WaningMoon1_lrljga.png",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725986251/PastWork/Filters/Sigridur_Birna_Filtorial_Rakata_yye8zy.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725986247/PastWork/Filters/Rakata_Acid_from_Sigri%CC%81%C3%B0ur_Birna_o0ljsq.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725986247/PastWork/Filters/Rakata_Acid_from_Sigri%CC%81%C3%B0ur_Birna_o0ljsq.jpg",
     ],
     description: (
       <span>
-        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
-        Sólveig Dóra Hansdóttir
-        <br />
-        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
-        <br />
-        <strong>Sound</strong> Jack Armitage & Ari Árelíus
+        <h3>Augmented Identity: </h3>
+        <h3>AR, Instagram, and Digital Self-Expression</h3>
+        <p>
+          In 2019, a significant shift in digital self-expression was ushered in
+          when Instagram made its Spark AR Studio accessible to the general
+          public. This move went beyond mere technological expansion; it
+          heralded a new era of digital identity exploration.
+        </p>
+        <p>
+          The relationship between our online and offline personas has been a
+          topic of great interest. Studies have illuminated both the advantages
+          and drawbacks of social media engagement. While some research points
+          to potential negative effects, such as feelings of loneliness and
+          depression, a positive use of these platforms can also foster
+          self-esteem and well-being. With technologies like AR, the divide
+          between the virtual and physical becomes less pronounced. It's
+          increasingly clear that our digital and physical lives exist in
+          symbiosis, with each aspect influencing the other.
+        </p>
+        <p>
+          AR's essence lies in its ability to overlay digital elements onto our
+          physical world. This is most evident in the popular face filters found
+          on Instagram. These filters offer both playful and serious
+          modifications to one's appearance, acting as digital makeup or masks.
+        </p>
+        <p>
+          The democratization of AR tools, like Spark AR Studio, has empowered
+          designers and creatives to embark on innovative ventures. They've
+          taken the concept of the digital self and expanded it, crafting
+          surreal representations that blend the real and the virtual. Through
+          such explorations, the boundaries between our online personas and
+          real-world identities blur, highlighting the intertwined nature of our
+          existence in both domains.
+        </p>
+        <p>
+          In essence, the advancements facilitated by platforms like Spark AR
+          Studio emphasize the convergence of our digital and physical
+          identities, showing how technology not only extends our capabilities
+          but also reshapes our perception and expression of the self.
+        </p>
+        <a
+          href="https://hadesignmag.is/wp-content/uploads/2019/11/G81A7826-1.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          HA Magazine
+        </a>
       </span>
     ),
-    credits: (
-      <span>
-        <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir &
-        Sólveig Dóra Hansdóttir
-        <br />
-        <strong>Architecture</strong> Arís Eva Vilhelmsdóttir
-        <br />
-        <strong>Sound</strong> Jack Armitage & Ari Árelíus
-      </span>
-    ),
+    credits: undefined,
   },
   {
     name: "Do it for the Gram",
