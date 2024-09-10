@@ -297,7 +297,11 @@ const projects: Project[] = [
   {
     name: "Do it for the Gram",
     year: 2019,
-    images: [],
+    images: [
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725990592/PastWork/doitforthe/Editorial_6_ruxfwh.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725990587/PastWork/doitforthe/Editorial_3_jzsqrf.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725990589/PastWork/doitforthe/Editorial_2_bzpesy.jpg",
+    ],
     description: (
       <span>
         <h3>Do It for the Gram</h3>
@@ -372,7 +376,14 @@ const projects: Project[] = [
   {
     name: "Piece of me",
     year: 2018,
-    images: [],
+    images: [
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991250/PastWork/piece%20of%20me/DSCF0058_hxfgwz.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991254/PastWork/piece%20of%20me/DSCF0063_kycj9k.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991259/PastWork/piece%20of%20me/DSCF0056_s1dyoo.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991264/PastWork/piece%20of%20me/CounterPoint_209_ggzzo5.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991267/PastWork/piece%20of%20me/CounterPoint_210_ih4go7.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991270/PastWork/piece%20of%20me/CounterPoint_214_c1wgqw.jpg",
+    ],
     description: (
       <span>
         <h3>Piece of Me</h3>
@@ -422,7 +433,14 @@ const projects: Project[] = [
   {
     name: "Paperdoll",
     year: 2018,
-    images: [],
+    images: [
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991117/PastWork/paperdoll/Balenciaga_1_rdz9vo.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991120/PastWork/paperdoll/Balenciaga_4_sd80x5.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991117/PastWork/paperdoll/Balenciaga_1_rdz9vo.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991114/PastWork/paperdoll/Prada_4_ck4ugp.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991111/PastWork/paperdoll/vetements_2_cxedye.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725991108/PastWork/paperdoll/Prada_1_lwdxkf.jpg",
+    ],
     description: (
       <span>
         <h3>Digital Paper Doll</h3>
