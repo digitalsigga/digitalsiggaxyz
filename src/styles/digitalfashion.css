@@ -1,51 +1,237 @@
-.gallery {
-  text-align: center;
+/* Base Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
+  background-color: var(--background-color);
 }
 
-.gallery h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.gallery p {
-  font-size: 1rem;
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
   margin-bottom: 20px;
 }
 
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 10px;
-  padding: 10px;
+.dropdown-button {
+  background-color: var(--background-color);
+  padding: 10px 20px;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  color: var(--wine-color);
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.gallery-grid img {
+.dropdown-button:hover {
+  background-color: var(--unbothered-color);
+  color: white;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: var(--background-color);
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  padding: 12px 16px;
+  text-align: left;
+  display: block;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  cursor: pointer;
 }
 
-/* Media Queries for Responsiveness */
+.dropdown-content button:hover {
+  background-color: var(--unbothered-color);
+  color: white;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+  color: var(--wine-color);
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: var(--unbothered-color);
+  font-size: 2rem;
+}
+
+p,
+a {
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.project-card {
+  display: flex;
+  margin-bottom: 40px;
+  width: 80%;
+  max-width: 1200px;
+  background-color: var(--background-color)
+  border-radius: 10px;
+}
+
+.project-text {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  background-color: var(--background-color);
+}
+
+.project-images {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--unbothered-color);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.image-nav.prev {
+  left: 10px;
+}
+
+.image-nav.next {
+  right: 10px;
+}
+/* Responsive Design */
 @media (max-width: 1024px) {
-  .gallery-grid {
-    /* Tablet screens */
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  .project-card {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .project-text {
+    padding: 15px;
+  }
+
+  .project-images {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .image-scroll img {
+    max-height: 250px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  a {
+    font-size: 1rem;
+  }
+
+  .dropdown-button {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 768px) {
-  /* Mobile screens */
-  .gallery-grid {
-    /* Tablet screens */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  .dropdown-button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .project-text {
+    padding: 10px;
+  }
+
+  .project-images {
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+  .image-scroll img {
+    max-height: 200px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p,
+  a {
+    font-size: 0.9rem;
+  }
+
+  .dropdown-button {
+    font-size: 12px;
   }
 }
 
 @media (max-width: 480px) {
-  /* Extra small screens */
-  .gallery-grid {
-    /* Tablet screens */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  .dropdown-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .image-scroll img {
+    max-height: 150px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p,
+  a {
+    font-size: 0.8rem;
+  }
+
+  .dropdown-menu {
+    margin-top: 10px;
   }
 }
