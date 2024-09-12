@@ -1,43 +1,46 @@
 /* Base Styles */
-.container {
+.workContainer {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
-  background-color: var(--background-color);
+  position: relative;
 }
 
-.dropdown-menu {
-  position: relative;
-  display: inline-block;
+.work-dropdown-menu {
+  position: absolute; /* Position dropdown menu absolutely */
+  left: 0; /* Align dropdown menu to the left side of the container */
+  top: 0; /* Adjust top if needed to position the menu properly */
   margin-bottom: 20px;
 }
 
-.dropdown-button {
+.work-dropdown-button {
   background-color: var(--background-color);
   padding: 10px 20px;
   border: none;
   font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
   color: var(--wine-color);
   font-size: 2rem;
   cursor: pointer;
   border-radius: 5px;
-  margin-bottom: 30px;
 }
 
-.dropdown-button:hover {
+.work-dropdown-button:hover {
   background-color: var(--unbothered-color);
   color: white;
 }
 
-.dropdown-content {
-  position: absolute;
+.work-dropdown-content {
+  display: flex;
+  flex-direction: column;
   background-color: var(--background-color);
   min-width: 160px;
-  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-.dropdown-content button {
+.work-dropdown-content button {
   background: none;
   border: none;
   color: var(--text-color);
@@ -48,91 +51,75 @@
   cursor: pointer;
 }
 
-.dropdown-content button:hover {
+.work-dropdown-content button:hover {
   background-color: var(--unbothered-color);
   color: white;
 }
 
 h1 {
   font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
   color: var(--wine-color);
   font-size: 3rem;
-  margin-bottom: 30px;
 }
 
 h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
+  margin-bottom: 15px;
   color: var(--unbothered-color);
   font-size: 2rem;
-  margin-bottom: 15px;
 }
 
 p,
 a {
   font-family: "Merriweather", serif;
-  color: var(--text-color);
   font-size: 1.2rem;
+  color: var(--text-color);
   margin-bottom: 20px;
   font-weight: 300;
 }
 
-.project-card {
+.work-card {
   display: flex;
-  flex-direction: row;
-  width: 80%;
-  max-width: 1200px;
   margin-bottom: 40px;
+  width: 80%;
   background-color: var(--background-color);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
 }
 
-.project-text {
+.work-text {
   flex: 1;
   padding: 20px;
+  text-align: left;
+  background-color: var(--background-color);
 }
 
-.project-card img {
-  width: 20%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-left: 20px;
-}
+.work-image {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px; /* Adjust this value as needed */
 
-.project-card h2 {
-  font-size: 1.8rem;
-  color: var(--wine-color);
-}
-
-.project-card span h3 {
-  font-family: "Oswald", sans-serif;
-  color: var(--unbothered-color);
-  font-size: 1.6rem;
-  margin-top: 10px;
-}
-
-.project-link {
-  margin-top: 20px;
-}
-
-.project-link a {
-  font-size: 1.2rem;
-  color: var(--wine-color);
-  text-decoration: none;
-}
-
-.project-link a:hover {
-  color: var(--unbothered-color);
+  /* max-width: 40px; */
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .project-card {
+  .work-card {
     flex-direction: column;
     width: 90%;
+  }
+
+  .work-text {
+    padding: 15px;
+  }
+
+  .work-image {
+    width: 100%;
+    overflow-x: auto;
   }
 
   h1 {
@@ -148,24 +135,34 @@ a {
     font-size: 1rem;
   }
 
-  .dropdown-button {
-    font-size: 1.5rem;
+  .work-dropdown-button {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 768px) {
-  .dropdown-menu {
+  .work-dropdown-menu {
     width: 100%;
   }
 
-  .dropdown-button {
+  .work-dropdown-button {
     width: 100%;
     font-size: 14px;
   }
 
-  .project-card {
+  .work-project-card {
     flex-direction: column;
     width: 95%;
+  }
+
+  .work-project-text {
+    padding: 10px;
+  }
+
+  .work-project-image {
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px 0;
   }
 
   h1 {
@@ -181,13 +178,13 @@ a {
     font-size: 0.9rem;
   }
 
-  .dropdown-button {
+  .work-dropdown-button {
     font-size: 12px;
   }
 }
 
 @media (max-width: 480px) {
-  .dropdown-button {
+  .work-dropdown-button {
     font-size: 12px;
     padding: 6px 12px;
   }
@@ -205,7 +202,7 @@ a {
     font-size: 0.8rem;
   }
 
-  .dropdown-menu {
+  .work-dropdown-menu {
     margin-top: 10px;
   }
 }
