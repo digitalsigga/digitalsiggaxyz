@@ -45,7 +45,7 @@ const DigitalFashion: React.FC = () => {
           className="dropdown-button"
           onClick={() => setShowMenu(!showMenu)}
         >
-          Select a Project
+          Projects
         </button>
         {showMenu && (
           <div className="dropdown-content">

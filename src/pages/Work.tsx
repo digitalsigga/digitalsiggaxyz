@@ -15,13 +15,9 @@ export const page: Pages[] = [
   {
     name: "Digital fashion",
     image:
-      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1725555871/MA%20Design/Sigridur_Birna_Filtorial_Rakata_a3k1y1.jpg",
+      "https://res.cloudinary.com/dvlggqgbf/image/upload/v1726148226/Digital%20Fashion/wanderingmoon/WaningMoon1_j1is57.png",
     year: "2023-2024",
-    description: (
-      <span>
-        <h3>Recent digital fashion</h3>
-      </span>
-    ),
+    description: <span>Recent digital fashion creations.</span>,
     link: "/work/digitalfashion", // Change link type to string
   },
   {
