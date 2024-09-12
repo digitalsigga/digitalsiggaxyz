@@ -84,7 +84,7 @@ a {
   margin-bottom: 40px;
   width: 80%;
   max-width: 1200px;
-  background-color: var(--background-color)
+  background-color: var(--background-color);
   border-radius: 10px;
 }
 
