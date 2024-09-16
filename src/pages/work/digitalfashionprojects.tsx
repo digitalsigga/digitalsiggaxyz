@@ -60,7 +60,32 @@ export const digitalfashionprojects: Project[] = [
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1726148482/Digital%20Fashion/DSDB/DSDB2_t6pm7l.png",
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1726148484/Digital%20Fashion/DSDB/DSDB8_l4wnbc.png",
     ],
-    description: <span></span>,
+    description: (
+      <span>
+        Drawing inspiration from insightful works such as "Datafeminism" by
+        Catherine D'Ignazio and Lauren F. Klein, as well as "Atlas of AI" by
+        Kate Crawford, the Digital Sigga Database (DSDB) project emerges as a
+        thoughtful exploration into the ethics and potential of AI-driven visual
+        narratives.
+        <br />
+        <br />
+        The increasing prevalence of AI-generated images brings to light not
+        just technological wonders, but also ethical dilemmas. With concerns
+        regarding the sourcing of these images often not adhering to ethical
+        standards, the DSDB seeks to chart a more conscientious path. The
+        designer's approach is centered on curating a personal dataset, ensuring
+        its provenance and integrity, to lay a foundation for future AI
+        experiments.
+        <br />
+        <br />
+        DSDB stands as a testament to the designer's commitment to merging
+        technological prowess with ethical responsibility, emphasizing the
+        importance of transparency and ethics in the rapidly evolving landscape
+        of AI imagery.
+        <br />
+        <br />
+      </span>
+    ),
     credits: (
       <span>
         <strong>Art direction & Fashion</strong> Sigríður Birna Matthíasdóttir

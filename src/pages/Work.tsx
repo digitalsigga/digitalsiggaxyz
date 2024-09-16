@@ -17,7 +17,31 @@ export const page: Pages[] = [
     image:
       "https://res.cloudinary.com/dvlggqgbf/image/upload/v1726148226/Digital%20Fashion/wanderingmoon/WaningMoon1_j1is57.png",
     year: "2023-2024",
-    description: <span>Recent digital fashion creations.</span>,
+    description: (
+      <span>
+        This work in digital fashion explores the creative possibilities of
+        virtual clothing and styling. Using tools like CLO3D, Blender, and
+        Affinity Photo, it involves designing and creating digital garments that
+        blend the worlds of fashion and technology. The pieces range from
+        realistic clothing simulations to imaginative, unconventional designs
+        that push beyond what’s possible with traditional materials.
+        <br />
+        <br />
+        The process often starts with designing 3D garments in CLO3D, allowing
+        for experimentation with shapes, textures, and patterns in a precise and
+        flexible way. The designs are then brought into Blender to add details,
+        refine shapes, and explore different settings and lighting for the final
+        look. Affinity Photo is used to enhance the visuals, combining digital
+        garments with photographs to create striking, polished images.
+        <br />
+        <br />
+        This approach is hands-on and experimental, focusing on the joy of
+        creating something new and visually engaging. Digital fashion offers the
+        chance to explore styles and concepts without the limitations of
+        physical materials, providing a fresh take on self-expression and
+        design.
+      </span>
+    ),
     link: "/work/digitalfashion", // Change link type to string
   },
   {
