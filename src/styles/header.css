@@ -1,3 +1,8 @@
+/* Setting up a base font size */
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
 @font-face {
   font-family: "Rafael";
   src: url("../assets/fonts/rafael_display-webfont.woff") format("woff"),
@@ -8,7 +13,7 @@
 
 h1.rafael {
   font-family: Rafael;
-  font-size: 250px;
+  font-size: 18.75rem; /* 300px / 16 = 18.75rem */
   font-weight: bold;
   background: linear-gradient(
     90deg,
@@ -33,13 +38,14 @@ h1.rafael {
     background-position: 0% 50%;
   }
 }
+
 .marquee {
   width: 100vw;
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 2.5rem; /* 40px / 16 = 2.5rem */
 }
 
 .marquee-inner {
@@ -49,8 +55,8 @@ h1.rafael {
 }
 
 .marquee-inner span {
-  font-size: 8vw; /* Adjust size based on screen width */
-  margin-right: 2vw; /* Add some spacing between repetitions */
+  font-size: 8vw; /* Responsive font size based on viewport width */
+  margin-right: 2vw; /* Spacing between repetitions */
 }
 
 @keyframes loopText {
@@ -66,23 +72,23 @@ h1.rafael {
 @media (max-width: 1024px) {
   /* Tablet screens */
   h1.rafael {
-    font-size: 180px; /* Smaller size for tablets */
+    font-size: 11.25rem; /* 180px / 16 = 11.25rem */
   }
 }
 
 @media (max-width: 768px) {
   /* Mobile screens */
   h1.rafael {
-    font-size: 120px; /* Smaller size for mobile devices */
+    font-size: 11rem; /* 120px / 16 = 7.5rem */
   }
 }
 
 @media (max-width: 480px) {
   /* Extra small screens */
   h1.rafael {
-    font-size: 80px; /* Even smaller size for very small screens */
+    font-size: 8rem; /* 80px / 16 = 5rem */
   }
   .marquee {
-    padding-top: 50px;
+    padding-top: 3.125rem; /* 50px / 16 = 3.125rem */
   }
 }
