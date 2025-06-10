@@ -7,8 +7,7 @@ function Header() {
         <div className="marquee-inner">
           <span>
             <h1 className="rafael">
-              Digital Sigga is a digital fashion designer, artist and web
-              developer
+              Digital Sigga
             </h1>
           </span>
         </div>

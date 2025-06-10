@@ -32,10 +32,20 @@ function Nav() {
               isActive ? "nav-link active-link" : "nav-link"
             }
           >
-            Work
+            Portfolio
           </NavLink>
         </li>
-        {/* <li>
+                <li>
+          <NavLink
+            to="../pages/work"
+            className={({ isActive }) =>
+              isActive ? "nav-link active-link" : "nav-link"
+            }
+          >
+            
+          </NavLink>
+        </li>
+        <li>
           <NavLink
             to="../pages/contact"
             className={({ isActive }) =>
@@ -44,7 +54,7 @@ function Nav() {
           >
             Contact
           </NavLink>
-        </li> */}
+        </li> 
       </ul>
     </div>
   );

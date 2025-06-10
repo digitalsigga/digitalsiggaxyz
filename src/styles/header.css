@@ -44,6 +44,7 @@ h1.rafael {
   overflow: hidden;
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding-top: 2.5rem; /* 40px / 16 = 2.5rem */
 }
@@ -59,14 +60,7 @@ h1.rafael {
   margin-right: 2vw; /* Spacing between repetitions */
 }
 
-@keyframes loopText {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
