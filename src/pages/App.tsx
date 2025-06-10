@@ -3,7 +3,6 @@ import Home from "../pages/Home";
 import About from "./About";
 import Nav from "../components/Nav"; // Ensure this import is correct
 import Contact from "./Contact";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Work from "./Work";
 import DigitalFashion from "./work/digitalfashion";
@@ -13,7 +12,6 @@ function App() {
   return (
     <Router>
       <Nav />
-      <Header />
       <Routes>
         <Route path="/pages/About" element={<About />} />{" "}
         {/* Updated Route syntax */}

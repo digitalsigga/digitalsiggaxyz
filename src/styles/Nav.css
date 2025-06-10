@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center; /* Aligns items vertically in the center */
-  padding: 20px; /* Adds some space around the content */
+  padding: 20px; 
   position: fixed; /* Fixes the navbar to the top of the viewport */
   top: 0; /* Positions the navbar at the very top */
   left: 0; /* Positions the navbar at the left edge of the viewport */
@@ -30,9 +30,6 @@
   margin: 0 15px; /* Add space between list items */
 }
 
-.card {
-  /* Add any styling for the card here */
-}
 
 /* Common styles for nav links */
 .nav-container .nav-link {

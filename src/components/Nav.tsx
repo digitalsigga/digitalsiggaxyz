@@ -42,7 +42,7 @@ function Nav() {
               isActive ? "nav-link active-link" : "nav-link"
             }
           >
-            
+            Shop
           </NavLink>
         </li>
         <li>
